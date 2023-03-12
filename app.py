@@ -6,7 +6,7 @@ import re
 
 app = Flask(__name__)
 
-@app.route('/obrendosantiago/baixatube')
+@app.route('/baixatube/index.html')
 def index():
     return render_template('index.html')
 
